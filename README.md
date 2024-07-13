@@ -15,7 +15,7 @@
 
 ![Application Architecture Diagram.](./Images/App%20Architect.png)
 
-## R4 User Stories CMP1043-5.1
+## R4 User Stories
 
 ## R5 Wireframes for multiple standard screen sizes, created using industry standard software
 
