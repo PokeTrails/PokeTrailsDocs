@@ -6,8 +6,18 @@
 
 - Purpose
 - Functionality / features
-- Target audience
-- Tech stack GENERAL
+- **Target Audience**
+    - As pokemon is a product that is popular with all ages and demographics our target audience will tend to mimic that. The age range that that online pokemon fans tend to be is somewhere between 20-29. As this product is an online application we will be catering to that demographic. While Pokemon fans will be our main target, the game has Gacha mechanics which allow us to appeal to the gacha game player demographic as well.
+- **Tech Stack**
+    - Javascript
+    - NodeJS
+    - React
+    - ExpressJS
+    - Mongoose
+    - MongoDB
+    - PokeApi
+    - Netlify
+    - Render
 
 ## R2 Dataflow Diagram
 
