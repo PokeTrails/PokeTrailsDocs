@@ -22,7 +22,15 @@ As a: Pokémon Trainer
 ```
 
 ```
-I want to: nurture my Pokémon, play with it, talk with it, feed it, evolve it, send it on trails, register it to the Pokédex, and buy items from the professor's store
+I want to:
+nurture my Pokémon,
+play with it,
+talk with it,
+feed it,
+evolve it,
+send it on trails,
+register it to the Pokédex,
+and buy items from the professor's store
 ```
 
 ```
