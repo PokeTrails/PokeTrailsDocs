@@ -11,6 +11,12 @@
 
 ## R2 Dataflow Diagram
 
+![Login](./Images/DFD_Login.PNG)
+![Shop](./Images/DFD_Shop.PNG)
+![Trail](./Images/DFD_Trail.PNG)
+![Interactions](./Images/DFD_Interactions.PNG)
+
+
 ## R3 Application Architecture Diagram
 
 ![Application Architecture Diagram.](./Images/App%20Architect.png)
