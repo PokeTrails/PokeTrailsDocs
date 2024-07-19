@@ -1,69 +1,111 @@
 # PokeTrailsDocs
 
-## Official Documentation for the PokéTrails Application
+Official Documentation for the PokéTrails Application.
 
-## R1 Description of your website, including
+Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
 
-- **Purpose**
-  - The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
+## Table of Contents
 
-- **Features**
-    - To choose between two unique character sprites.
-    - The ability to hatch a random pokemon.
-    - To be able to feed, play and hear the cries of pokemon in the party.
-    - To allows players fill out and view their individual pokedex seeing more information about the pokemon the player hatches.
-    - To evolve pokemon, seeing the different pokemon forms.
-    - To interact with the professor and to buy items from him that improve the progression speed.
-    - To buy eggs from the professor which have a random pokemon inside.
-    - To donate pokemon the player raises to obtain currency to use in the professors store.
-    - A trail system that allows players to send their pokemon on adventures.
-    - A trail log that allows players to see what the pokemon is encountering on the trails.
+- [R1 - Application Purpose and Features](#r1---description-of-your-website)
+  - [Purpose](#purpose)
+  - [Features](#features)
+  - [Target Audience](#target-audience)
+  - [Tech Stack](#tech-stack)
+- [R2 - Dataflow Diagrams](#r2---dataflow-diagrams)
+- [R3 - Application Architecture Diagram](#r1---description-of-your-website)
+- [R4 - User Stories and Personas](#r4---user-stories-and-personas)
+  - [Persona - Pokémon Caretaker](#persona---pokémon-caretaker)
+  - [Persona - Pokémon Enthusiast](#persona---pokémon-enthusiast)
+  - [Persona - Pokémon Trainer](#persona---pokémon-trainer)
+  - [Persona - Pokémon Fan](#persona---pokémon-fan)
+  - [User Stories](#user-stories)
+- [R5 -  Mobile, Tablet and Desktop Wireframes](#r5---mobile-tablet-and-desktop-wireframes)
+  - [Sign Up Page](#sign-up-page)
+  - [Log In Page](#log-in-page)
+  - [Main Page](#main-page)
+  - [Party Page](#party-page)
+  - [Trail Menu Page](#trail-menu-page)
+  - [Trail Selection Page](#trail-selection-page)
+  - [Trail Selection Page Alt](#trail-selection-page-alt)
+  - [Pokédex Page](#pokédex-page)
+  - [Store Menu Page](#store-menu-page)
+  - [Store Purchase Page](#store-purchase-page)
+  - [Store Upgrade Page](#store-upgrade-page)
+  - [Store Upgrade Page Alt](#store-upgrade-page-alt)
+  - [Store Send Pokémon Page](#store-send-pokémon-page)
+  - [Store Send Pokémon Page Alt](#store-send-pokémon-page-alt)
+  - [User Settings Page](#user-settings-page)
+- [R6 - Trello Board Project Management Screenshots](#r6---trello-board-project-management-screenshots)
 
-- **Target Audience**
-  - As pokemon is a product that is popular with all ages and demographics our target audience will tend to mimic that. The age range that that online pokemon fans tend to be is somewhere between 20-29. As this product is an online application we will be catering to that demographic. While Pokemon fans will be our main target, the game has Gacha mechanics which allow us to appeal to the gacha game player demographic as well.
-- **Tech Stack**
-    - **Front End**
-        - Render
-        - HTML
-        - CSS
-        - Javascript
-        - React
-        - Tech Domains
-    - **Back End**
-        - Netlify
-        - Javascript
-        - NodeJS
-        - ExpressJS
-        - Mongoose
-        - MongoDB
-        - PokeApi
+## R1 - Description of your Website
 
+### Purpose
 
-## R2 Dataflow Diagrams
+The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
+
+### Features
+
+- To choose between two unique character sprites.
+- The ability to hatch a random pokemon.
+- To be able to feed, play and hear the cries of pokemon in the party.
+- To allows players fill out and view their individual pokedex seeing more information about the pokemon the player hatches.
+- To evolve pokemon, seeing the different pokemon forms.
+- To interact with the professor and to buy items from him that improve the progression speed.
+- To buy eggs from the professor which have a random pokemon inside.
+- To donate pokemon the player raises to obtain currency to use in the professors store.
+- A trail system that allows players to send their pokemon on adventures.
+- A trail log that allows players to see what the pokemon is encountering on the trails.
+
+### Target Audience
+
+As pokemon is a product that is popular with all ages and demographics our target audience will tend to mimic that. The age range that that online pokemon fans tend to be is somewhere between 20-29. As this product is an online application we will be catering to that demographic. While Pokemon fans will be our main target, the game has Gacha mechanics which allow us to appeal to the gacha game player demographic as well.
+
+### Tech Stack
+
+- **Front End**
+  - Render
+  - HTML
+  - CSS
+  - Javascript
+  - React
+  - Tech Domains
+- **Back End**
+  - Netlify
+  - Javascript
+  - NodeJS
+  - ExpressJS
+  - Mongoose
+  - MongoDB
+  - PokeApi
+
+## R2 - Dataflow Diagrams
+
 The below diagrams depict how data travels, and is stored, throughout various processes present within the application.
 
 ### Login Process
+
 ![Login](./Images/DFD_Login.PNG)
 
 ### Shop Process
+
 ![Shop](./Images/DFD_Shop.PNG)
 
 ### Trail Process
+
 ![Trail](./Images/DFD_Trail.PNG)
 
 ### Pokemon Interaction Process
+
 ![Interactions](./Images/DFD_Interactions.PNG)
 
-## R3 Application Architecture Diagram
+## R3 - Application Architecture Diagram
 
 The PokéTrails application leverages a modern web architecture that includes a front-end built with HTML, CSS, JavaScript, and React, hosted on Netlify. The back-end, hosted on Render, utilises Node.js with Express.js and Mongoose for handling API requests and MongoDB operations. The system integrates with third-party services like PokéAPI to enhance functionality and provide comprehensive data to users.
 
 Below is an overview of the full app architecture:
 ![Application Architecture Diagram.](./Images/App%20Architect.jpg)
 
-## R4 User Stories
-
-### User Personas
+## R4 - User Stories and Personas
 
 In this section, we outline the key user personas and their respective user stories to ensure we cater to their needs and expectations.
 
@@ -71,9 +113,9 @@ In this section, we outline the key user personas and their respective user stor
 
 ![Caretaker](./Images/Persona_Caretaker.png)
 
-### Persona - Pokémon Enthusuast
+### Persona - Pokémon Enthusiast
 
-![Enthusuast](./Images/Persona_Enthusiast.png)
+![Enthusiast](./Images/Persona_Enthusiast.png)
 
 ### Persona - Pokémon Trainer
 
@@ -145,7 +187,7 @@ So that: I can stay informed and engage with the app regularly.
 
 ---
 
-## R5 Wireframes for multiple standard screen sizes, created using industry standard software
+## R5 - Mobile, Tablet and Desktop Wireframes
 
 Below are the wireframes that we developed for this application, consisting of mock ups for Mobile, Tablet and Desktop screens. Annotations can be found on the desktop wireframe for each page, depicting each notable element or component and its function/purpose.
 
@@ -175,7 +217,7 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Trail Selection Page](./Images/wireframes/wf_6_trail_selection.png)
 
-### Trail Selection Page (Alt - Pokémon on Trail)
+### Trail Selection Page Alt
 
 ![Trail Page Alt Page](./Images/wireframes/wf_7_trail_selection_alt.png)
 
@@ -195,7 +237,7 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Store Upgrade Page](./Images/wireframes/wf_11_store_upgrade.png)
 
-### Store Upgrade Page (Alt - Max Upgraded Item)
+### Store Upgrade Page Alt
 
 ![Store Upgrade Alt Page](./Images/wireframes/wf_12_store_upgrade_max.png)
 
@@ -203,7 +245,7 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
 
-### Store Send Pokémon Page (Alt - Pokémon on Trail)
+### Store Send Pokémon Page Alt
 
 ![Store Send Pokémon Alt Page](./Images/wireframes/wf_14_store_send_alt.png)
 
@@ -211,4 +253,4 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
-## R6 Screenshots of your Trello board throughout the duration of the project
+## R6 - Trello Board Project Management Screenshots
