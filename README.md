@@ -1,6 +1,8 @@
 # PokeTrailsDocs
 
-Official Documentation for the PokéTrails Application
+Official Documentation for the PokéTrails Application.
+
+Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
 
 ## Table of Contents
 
@@ -18,6 +20,21 @@ Official Documentation for the PokéTrails Application
   - [Persona - Pokémon Fan](#persona---pokémon-fan)
   - [User Stories](#user-stories)
 - [R5 -  Mobile, Tablet and Desktop Wireframes](#r5-mobile-tablet-and-desktop-wireframes)
+  - [Sign Up Page](#sign-up-page)
+  - [Log In Page](#log-in-page)
+  - [Main Page](#main-page)
+  - [Party Page](#party-page)
+  - [Trail Menu Page](#trail-menu-page)
+  - [Trail Selection Page](#trail-selection-page)
+  - [Trail Selection Page Alt](#trail-selection-page-alt))
+  - [Pokédex Page](#pokédex-page)
+  - [Store Menu Page](#store-menu-page)
+  - [Store Purchase Page](#store-purchase-page)
+  - [Store Upgrade Page](#store-upgrade-page)
+  - [Store Upgrade Page Alt](#store-upgrade-page-alt)
+  - [Store Send Pokémon Page](#store-send-pokémon-page)
+  - [Store Send Pokémon Page Alt](#store-send-pokémon-page-alt)
+  - [User Settings Page](#user-settings-page)
 - [R6 - Trello Board Project Management Screenshots](#r6-trello-board-project-management-screenshots)
 
 ## R1 Description of your Website
@@ -184,7 +201,7 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Trail Selection Page](./Images/wireframes/wf_6_trail_selection.png)
 
-### Trail Selection Page (Alt - Pokémon on Trail)
+### Trail Selection Page Alt
 
 ![Trail Page Alt Page](./Images/wireframes/wf_7_trail_selection_alt.png)
 
@@ -204,7 +221,7 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Store Upgrade Page](./Images/wireframes/wf_11_store_upgrade.png)
 
-### Store Upgrade Page (Alt - Max Upgraded Item)
+### Store Upgrade Page Alt
 
 ![Store Upgrade Alt Page](./Images/wireframes/wf_12_store_upgrade_max.png)
 
@@ -212,7 +229,7 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
 
-### Store Send Pokémon Page (Alt - Pokémon on Trail)
+### Store Send Pokémon Page Alt
 
 ![Store Send Pokémon Alt Page](./Images/wireframes/wf_14_store_send_alt.png)
 
