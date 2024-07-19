@@ -127,4 +127,60 @@ So that: I can stay informed and engage with the app regularly.
 
 ## R5 Wireframes for multiple standard screen sizes, created using industry standard software
 
+### Sign Up Page Page
+
+![Sign Up Page](./Images/wireframes/wf_1_sign_up.png)
+
+### Log In Page
+
+![Log In Page](./Images/wireframes/wf_2_log_in.png)
+
+### Main Page
+
+![Main Page](./Images/wireframes/wf_3_main.png)
+
+### Party Page
+
+![Party Page](./Images/wireframes/wf_4_party.png)
+
+### Trail Menu Page
+
+![Trail Menu Page](./Images/wireframes/wf_5_trails.png)
+
+### Trail Selection Page
+
+![Trail Selection Page](./Images/wireframes/wf_6_trail_selection.png)
+
+### Trail Selection Page (Alt - Pokémon on Trail)
+
+![Trail Page Alt Page](./Images/wireframes/wf_7_trail_selection_alt.png)
+
+### Pokédex Page
+
+![Pokédex Page](./Images/wireframes/wf_8_pokedex.png)
+
+### Store Menu Page
+
+![Store Menu Page](./Images/wireframes/wf_9_store_menu.png)
+
+### Store Purchase Page
+
+![Store Purchase Page](./Images/wireframes/wf_10_store_purchase.png)
+
+### Store Upgrade Page
+
+![Store Upgrade Page](./Images/wireframes/wf_11_store_upgrade.png)
+
+### Store Upgrade Page (Alt - Max Upgraded Item)
+
+![Store Upgrade Alt Page](./Images/wireframes/wf_12_store_upgrade_max.png)
+
+### Store Send Pokémon Page
+
+![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
+
+### User Settings Page
+
+![User Settings Page](./Images/wireframes/wf_14_store_send_alt.png)
+
 ## R6 Screenshots of your Trello board throughout the duration of the project
