@@ -24,7 +24,7 @@ Official Documentation for the PokéTrails Application
 
 ### Purpose
 
-The purpose of the app/game is to create a casual experience that Pokemon fans, or people just starting to be interested in pokemon, to learn about different pokemon in an enjoyable and engaging way.
+The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
 
 ### Features
 
@@ -45,15 +45,21 @@ As pokemon is a product that is popular with all ages and demographics our targe
 
 ### Tech Stack
 
-- Javascript
-- NodeJS
-- React
-- ExpressJS
-- Mongoose
-- MongoDB
-- PokéAPI
-- Netlify
-- Render
+- **Front End**
+  - Render
+  - HTML
+  - CSS
+  - Javascript
+  - React
+  - Tech Domains
+- **Back End**
+  - Netlify
+  - Javascript
+  - NodeJS
+  - ExpressJS
+  - Mongoose
+  - MongoDB
+  - PokeApi
 
 ## R2 Dataflow Diagram
 
