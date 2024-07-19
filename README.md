@@ -39,11 +39,19 @@
         - PokeApi
 
 
-## R2 Dataflow Diagram
+## R2 Dataflow Diagrams
+The below diagrams depict how data travels, and is stored, throughout various processes present within the application.
 
+### Login Process
 ![Login](./Images/DFD_Login.PNG)
+
+### Shop Process
 ![Shop](./Images/DFD_Shop.PNG)
+
+### Trail Process
 ![Trail](./Images/DFD_Trail.PNG)
+
+### Pokemon Interaction Process
 ![Interactions](./Images/DFD_Interactions.PNG)
 
 ## R3 Application Architecture Diagram
