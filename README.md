@@ -179,8 +179,12 @@ So that: I can stay informed and engage with the app regularly.
 
 ![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
 
+### Store Send Pokémon Page (Alt - Pokémon on Trail)
+
+![Store Send Pokémon Page](./Images/wireframes/wf_14_store_send.png)
+
 ### User Settings Page
 
-![User Settings Page](./Images/wireframes/wf_14_store_send_alt.png)
+![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
 ## R6 Screenshots of your Trello board throughout the duration of the project
