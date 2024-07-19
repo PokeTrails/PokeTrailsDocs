@@ -4,15 +4,6 @@
 
 ## R1 Description of your website, including
 
-<<<<<<< Updated upstream
-    - React
-    - ExpressJS
-    - Mongoose
-    - MongoDB
-    - PokeApi
-    - Netlify
-    - Render
-=======
 - **Purpose**
   - The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
 
@@ -45,7 +36,6 @@
         - Mongoose
         - MongoDB
         - PokeApi
->>>>>>> Stashed changes
 
 ## R2 Dataflow Diagram
 
