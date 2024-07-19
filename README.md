@@ -209,14 +209,6 @@ Below is an overview of the refinement to the user stories. The user stories wer
 
 - The user stories now contain more specific information regarding the features and functionalities, reducing ambiguity and aiding in more precise implementation.
 
-#### Additional Details for User Interactions
-
-- More details have been provided on how users will interact with the application, ensuring a better understanding of the user experience.
-
-#### Enhanced Specificity
-
-- The user stories now contain more specific information regarding the features and functionalities, reducing ambiguity and aiding in more precise implementation.
-
 #### Change Log
 
 ![Refined User Stories](./Images/UserStory_Refinement.png)
