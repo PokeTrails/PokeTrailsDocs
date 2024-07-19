@@ -6,20 +6,20 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
 
 ## Table of Contents
 
-- [R1 - Application Purpose and Features](#r1-description-of-your-website)
+- [R1 - Application Purpose and Features](#r1---description-of-your-website)
   - [Purpose](#purpose)
   - [Features](#features)
   - [Target Audience](#target-audience)
   - [Tech Stack](#tech-stack)
-- [R2 - Dataflow Diagram](#r2-dataflow-diagram)
-- [R3 - Application Architecture Diagram](#r1-description-of-your-website)
-- [R4 - User Stories/Personas](#r1-description-of-your-website)
+- [R2 - Dataflow Diagrams](#r2---dataflow-diagrams)
+- [R3 - Application Architecture Diagram](#r1---description-of-your-website)
+- [R4 - User Stories and Personas](#r4---user-stories-and-personas)
   - [Persona - Pokémon Caretaker](#persona---pokémon-caretaker)
   - [Persona - Pokémon Enthusiast](#persona---pokémon-enthusiast)
   - [Persona - Pokémon Trainer](#persona---pokémon-trainer)
   - [Persona - Pokémon Fan](#persona---pokémon-fan)
   - [User Stories](#user-stories)
-- [R5 -  Mobile, Tablet and Desktop Wireframes](#r5-mobile-tablet-and-desktop-wireframes)
+- [R5 -  Mobile, Tablet and Desktop Wireframes](#r5---mobile-tablet-and-desktop-wireframes)
   - [Sign Up Page](#sign-up-page)
   - [Log In Page](#log-in-page)
   - [Main Page](#main-page)
@@ -35,9 +35,9 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
   - [Store Send Pokémon Page](#store-send-pokémon-page)
   - [Store Send Pokémon Page Alt](#store-send-pokémon-page-alt)
   - [User Settings Page](#user-settings-page)
-- [R6 - Trello Board Project Management Screenshots](#r6-trello-board-project-management-screenshots)
+- [R6 - Trello Board Project Management Screenshots](#r6---trello-board-project-management-screenshots)
 
-## R1 Description of your Website
+## R1 - Description of your Website
 
 ### Purpose
 
@@ -78,29 +78,34 @@ As pokemon is a product that is popular with all ages and demographics our targe
   - MongoDB
   - PokeApi
 
-## R2 Dataflow Diagrams
+## R2 - Dataflow Diagrams
+
 The below diagrams depict how data travels, and is stored, throughout various processes present within the application.
 
 ### Login Process
+
 ![Login](./Images/DFD_Login.PNG)
 
 ### Shop Process
+
 ![Shop](./Images/DFD_Shop.PNG)
 
 ### Trail Process
+
 ![Trail](./Images/DFD_Trail.PNG)
 
 ### Pokemon Interaction Process
+
 ![Interactions](./Images/DFD_Interactions.PNG)
 
-## R3 Application Architecture Diagram
+## R3 - Application Architecture Diagram
 
 The PokéTrails application leverages a modern web architecture that includes a front-end built with HTML, CSS, JavaScript, and React, hosted on Netlify. The back-end, hosted on Render, utilises Node.js with Express.js and Mongoose for handling API requests and MongoDB operations. The system integrates with third-party services like PokéAPI to enhance functionality and provide comprehensive data to users.
 
 Below is an overview of the full app architecture:
 ![Application Architecture Diagram.](./Images/App%20Architect.jpg)
 
-## R4 User Stories
+## R4 - User Stories and Personas
 
 In this section, we outline the key user personas and their respective user stories to ensure we cater to their needs and expectations.
 
@@ -182,7 +187,7 @@ So that: I can stay informed and engage with the app regularly.
 
 ---
 
-## R5 Mobile, Tablet and Desktop Wireframes
+## R5 - Mobile, Tablet and Desktop Wireframes
 
 Below are the wireframes that we developed for this application, consisting of mock ups for Mobile, Tablet and Desktop screens. Annotations can be found on the desktop wireframe for each page, depicting each notable element or component and its function/purpose.
 
@@ -248,4 +253,4 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
-## R6 Trello Board Project Management Screenshots
+## R6 - Trello Board Project Management Screenshots
