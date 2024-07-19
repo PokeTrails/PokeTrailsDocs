@@ -4,11 +4,6 @@
 
 ## R1 Description of your website, including
 
-- Purpose
-- Functionality / features
-- Target audience
-- Tech stack GENERAL
-
 ## R2 Dataflow Diagram
 
 ![Login](./Images/DFD_Login.PNG)
