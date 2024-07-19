@@ -187,6 +187,40 @@ So that: I can stay informed and engage with the app regularly.
 
 ---
 
+### User Stories Refinement
+
+Below is an overview of the refinement to the user stories. The user stories were first drafted based on the user personas and further refined after a team discussions and user feedback. The updates include more detailed acceptance criteria and clearer descriptions to better align with user needs and application functionality.
+
+#### What Has Changed
+
+#### Added Acceptance Criteria
+
+- Each user story now includes specific acceptance criteria to clearly define when a user story is complete and meets the requirements.
+
+#### Refined User Stories
+
+- User stories have been rephrased for clarity and better alignment with the intended functionality and user personas.
+
+#### Additional Details for User Interactions
+
+- More details have been provided on how users will interact with the application, ensuring a better understanding of the user experience.
+
+#### Enhanced Specificity
+
+- The user stories now contain more specific information regarding the features and functionalities, reducing ambiguity and aiding in more precise implementation.
+
+#### Additional Details for User Interactions
+
+- More details have been provided on how users will interact with the application, ensuring a better understanding of the user experience.
+
+#### Enhanced Specificity
+
+- The user stories now contain more specific information regarding the features and functionalities, reducing ambiguity and aiding in more precise implementation.
+
+#### Change Log
+
+![Refined User Stories](./Images/UserStory_Refinement.png)
+
 ## R5 - Mobile, Tablet and Desktop Wireframes
 
 Below are the wireframes that we developed for this application, consisting of mock ups for Mobile, Tablet and Desktop screens. Annotations can be found on the desktop wireframe for each page, depicting each notable element or component and its function/purpose.
