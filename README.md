@@ -26,7 +26,7 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
   - [Party Page](#party-page)
   - [Trail Menu Page](#trail-menu-page)
   - [Trail Selection Page](#trail-selection-page)
-  - [Trail Selection Page Alt](#trail-selection-page-alt))
+  - [Trail Selection Page Alt](#trail-selection-page-alt)
   - [Pokédex Page](#pokédex-page)
   - [Store Menu Page](#store-menu-page)
   - [Store Purchase Page](#store-purchase-page)
