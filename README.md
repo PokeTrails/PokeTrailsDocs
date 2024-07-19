@@ -56,6 +56,9 @@ The below diagrams depict how data travels, and is stored, throughout various pr
 
 ## R3 Application Architecture Diagram
 
+The PokéTrails application leverages a modern web architecture that includes a front-end built with HTML, CSS, JavaScript, and React, hosted on Netlify. The back-end, hosted on Render, utilises Node.js with Express.js and Mongoose for handling API requests and MongoDB operations. The system integrates with third-party services like PokéAPI to enhance functionality and provide comprehensive data to users.
+
+Below is an overview of the full app architecture:
 ![Application Architecture Diagram.](./Images/App%20Architect.jpg)
 
 ## R4 User Stories
