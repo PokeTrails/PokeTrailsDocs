@@ -23,20 +23,21 @@
   - As pokemon is a product that is popular with all ages and demographics our target audience will tend to mimic that. The age range that that online pokemon fans tend to be is somewhere between 20-29. As this product is an online application we will be catering to that demographic. While Pokemon fans will be our main target, the game has Gacha mechanics which allow us to appeal to the gacha game player demographic as well.
 - **Tech Stack**
     - **Front End**
-        - Render
         - HTML
         - CSS
         - Javascript
         - React
-        - Tech Domains
     - **Back End**
-        - Netlify
         - Javascript
         - NodeJS
         - ExpressJS
         - Mongoose
         - MongoDB
+    - **Third Party Services**
         - PokeApi
+        - Netlify
+        - Tech Domains
+        - Tech Domains
 
 
 ## R2 Dataflow Diagram
@@ -201,3 +202,21 @@ These wireframes were developed and created using Figma, the online version can 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
 ## R6 Screenshots of your Trello board throughout the duration of the project
+### 4/07
+![4th](./Images/4th.png)
+### 5/07
+![5th](./Images/5th.png)
+### 6/07
+![6th](./Images/6th.png)
+### 7/07
+![7th](./Images/7th.png)
+### 8/07
+![8th](./Images/8th.png)
+### 9/07
+![9th](./Images/9th.png)
+### 13/07
+![13th](./Images/13th.png)
+### 16/07
+![16th](./Images/16th.png)
+### 19/07
+![19th](./Images/19th.png)
