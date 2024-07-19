@@ -78,15 +78,26 @@ As pokemon is a product that is popular with all ages and demographics our targe
   - MongoDB
   - PokeApi
 
-## R2 Dataflow Diagram
+## R2 Dataflow Diagrams
+The below diagrams depict how data travels, and is stored, throughout various processes present within the application.
 
+### Login Process
 ![Login](./Images/DFD_Login.PNG)
+
+### Shop Process
 ![Shop](./Images/DFD_Shop.PNG)
+
+### Trail Process
 ![Trail](./Images/DFD_Trail.PNG)
+
+### Pokemon Interaction Process
 ![Interactions](./Images/DFD_Interactions.PNG)
 
 ## R3 Application Architecture Diagram
 
+The PokéTrails application leverages a modern web architecture that includes a front-end built with HTML, CSS, JavaScript, and React, hosted on Netlify. The back-end, hosted on Render, utilises Node.js with Express.js and Mongoose for handling API requests and MongoDB operations. The system integrates with third-party services like PokéAPI to enhance functionality and provide comprehensive data to users.
+
+Below is an overview of the full app architecture:
 ![Application Architecture Diagram.](./Images/App%20Architect.jpg)
 
 ## R4 User Stories
