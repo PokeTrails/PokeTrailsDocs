@@ -181,7 +181,7 @@ So that: I can stay informed and engage with the app regularly.
 
 ### Store Send Pokémon Page (Alt - Pokémon on Trail)
 
-![Store Send Pokémon Page](./Images/wireframes/wf_14_store_send.png)
+![Store Send Pokémon Alt Page](./Images/wireframes/wf_14_store_send_alt.png)
 
 ### User Settings Page
 
