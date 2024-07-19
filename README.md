@@ -127,6 +127,10 @@ So that: I can stay informed and engage with the app regularly.
 
 ## R5 Wireframes for multiple standard screen sizes, created using industry standard software
 
+Below are the wireframes that we developed for this application, consisting of mock ups for Mobile, Tablet and Desktop screens. Annotations can be found on the desktop wireframe for each page, depicting each notable element or component and its function/purpose.
+
+These wireframes were developed and created using Figma, the online version can be viewed and access [here](https://www.figma.com/design/l4WFNwF8tMJdNZ5tBWap1D/Pok%C3%A9trails?node-id=935169-448&t=SS62FQ7YuaaWgltJ-1).
+
 ### Sign Up Page Page
 
 ![Sign Up Page](./Images/wireframes/wf_1_sign_up.png)
