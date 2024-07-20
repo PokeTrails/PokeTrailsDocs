@@ -6,13 +6,13 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
 
 ## Table of Contents
 
-- [R1 - Application Purpose and Features](#r1---description-of-your-website)
+- [R1 - Application Purpose and Features](#r1---application-purpose-and-features)
   - [Purpose](#purpose)
   - [Features](#features)
   - [Target Audience](#target-audience)
   - [Tech Stack](#tech-stack)
 - [R2 - Dataflow Diagrams](#r2---dataflow-diagrams)
-- [R3 - Application Architecture Diagram](#r1---description-of-your-website)
+- [R3 - Application Architecture Diagram](#r3---application-architecture-diagram)
 - [R4 - User Stories and Personas](#r4---user-stories-and-personas)
   - [Persona - Pokémon Caretaker](#persona---pokémon-caretaker)
   - [Persona - Pokémon Enthusiast](#persona---pokémon-enthusiast)
@@ -37,45 +37,76 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
   - [User Settings Page](#user-settings-page)
 - [R6 - Trello Board Project Management Screenshots](#r6---trello-board-project-management-screenshots)
 
+## R1 - Application Purpose and Features
 
 ### Purpose
 
 The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
 
-### Features
+#### Features
 
-- To choose between two unique character sprites.
-- The ability to hatch a random Pokémon.
-- To be able to feed, play and hear the cries of Pokémon in the party.
-- To allows players fill out and view their individual Pokédex seeing more information about the Pokémon the player hatches.
-- To evolve Pokémon, seeing the different Pokémon forms.
-- To interact with the professor and to buy items from him that improve the progression speed.
-- To buy eggs from the professor which have a random Pokémon inside.
-- To donate Pokémon the player raises to obtain currency to use in the professors store.
-- A trail system that allows players to send their Pokémon on adventures.
-- A trail log that allows players to see what the Pokémon is encountering on the trails.
+Below are the features that we've planned to implement in this applicaiton, including any optional features we would also like to implement given we have enough time.
+
+#### Party Management
+
+- Hatch eggs to receive new Pokémon
+- Play, feed and talk to your Pokémon
+  - Hear the Pokémon's cry when interacting with it
+  - Pokémon has animations and reacts according to interaction user selects
+- Evolve Pokémon after raising happiness
+- Rename Pokémon with nicknames
+
+#### Trails
+
+- Send Pokémon on specific trails to receive items, egg vouchers and happiness
+- View countdown of how long it takes for the Pokémon to complete the trail
+- View a log of what the Pokémon is doing on the trail
+
+#### Store
+
+- Purchase in-game buffs to improve progression speed
+  - Happiness buffs, increased chance to get egg vouchers etc
+- Purchase Eggs using egg vouchers to discover new Pokémon
+- Send Pokémon to the Professor to receive currency to use in the store and to fill out the Pokédex
+- Talk with the Professor who has new quotes depending on item or Pokémon selected
+
+#### Pokédex
+
+- View Pokémon you have discovered and sent to the Pokémon
+- View Pokédex entries with descriptions with Pokémon you have sent to the Professor
+- View shiny Pokémon if you have discovered any
+- Check overall progress of how far the user has filled out the Pokédex
+- View trainer information easily like player level
+
+#### User settings
+
+- Customisation options for user engagement and interaction
+  - Custom profile icons and trainer sprites which can be unlocked in store
+- View trainer stats and information
+- Delete user account if desired
 
 ### Target Audience
 
 As Pokémon is a product that is popular with all ages and demographics our target audience will tend to mimic that. The age range that that online Pokémon fans tend to be is somewhere between 20-29. As this product is an online application we will be catering to that demographic. While Pokémon fans will be our main target, the game has Gacha mechanics which allow us to appeal to the gacha game player demographic as well.
 
 ### Tech Stack
+
 - **Front End**
-    - HTML
-    - CSS
-    - Javascript
-    - React
-    - Netlify
-    - Tech Domains
+  - HTML
+  - CSS
+  - Javascript
+  - React
+  - Netlify
+  - Tech Domains
 - **Back End**
-    - Javascript
-    - NodeJS
-    - ExpressJS
-    - Mongoose
-    - MongoDB
-    - Render
+  - Javascript
+  - NodeJS
+  - ExpressJS
+  - Mongoose
+  - MongoDB
+  - Render
 - **Third Party Services**
-    - PokeApi
+  - PokéAPI
 
 ## R2 - Dataflow Diagrams
 
@@ -278,22 +309,40 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
-## R6 Screenshots of your Trello board throughout the duration of the project
+## R6 - Trello Board Project Management Screenshots
+
 ### 4/07
+
 ![4th](./Images/4th.png)
+
 ### 5/07
+
 ![5th](./Images/5th.png)
+
 ### 6/07
+
 ![6th](./Images/6th.png)
+
 ### 7/07
+
 ![7th](./Images/7th.png)
+
 ### 8/07
+
 ![8th](./Images/8th.png)
+
 ### 9/07
+
 ![9th](./Images/9th.png)
+
 ### 13/07
+
 ![13th](./Images/13th.png)
+
 ### 16/07
+
 ![16th](./Images/16th.png)
+
 ### 19/07
+
 ![19th](./Images/19th.png)
