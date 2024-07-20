@@ -112,26 +112,26 @@ The below diagrams depict how data travels, and is stored, throughout various pr
 
 ### Login Process
 
-![Login](./Images/DFD_Login.PNG)
+![Login](./images/dfd/DFD_Login.PNG)
 
 ### Shop Process
 
-![Shop](./Images/DFD_Shop.PNG)
+![Shop](./images/dfd/DFD_Shop.PNG)
 
 ### Trail Process
 
-![Trail](./Images/DFD_Trail.PNG)
+![Trail](./images/dfd/DFD_Trail.PNG)
 
 ### Pokémon Interaction Process
 
-![Interactions](./Images/DFD_Interactions.PNG)
+![Interactions](./images/dfd/DFD_Interactions.PNG)
 
 ## R3 - Application Architecture Diagram
 
 The PokéTrails application leverages a modern web architecture that includes a front-end built with HTML, CSS, JavaScript, and React, hosted on Netlify. The back-end, hosted on Render, utilises Node.js with Express.js and Mongoose for handling API requests and MongoDB operations. The system integrates with third-party services like PokéAPI to enhance functionality and provide comprehensive data to users.
 
 Below is an overview of the full app architecture:
-![Application Architecture Diagram.](./Images/App%20Architect.jpg)
+![Application Architecture Diagram.](./images/App%20Architect.jpg)
 
 ## R4 - User Stories and Personas
 
@@ -139,19 +139,19 @@ In this section, we outline the key user personas and their respective user stor
 
 ### Persona - Pokémon Caretaker
 
-![Caretaker](./Images/Persona_Caretaker.png)
+![Caretaker](./images/user-stories-personas/Persona_Caretaker.png)
 
 ### Persona - Pokémon Enthusiast
 
-![Enthusiast](./Images/Persona_Enthusiast.png)
+![Enthusiast](./images/user-stories-personas/Persona_Enthusiast.png)
 
 ### Persona - Pokémon Trainer
 
-![Trainer](./Images/Persona_Trainer.png)
+![Trainer](./images/user-stories-personas/Persona_Trainer.png)
 
 ### Persona - Pokémon Fan
 
-![Fan](./Images/Persona_Fan.png)
+![Fan](./images/user-stories-personas/Persona_Fan.png)
 
 ### User Stories
 
@@ -239,7 +239,7 @@ Below is an overview of the refinement to the user stories. The user stories wer
 
 #### Change Log
 
-![Refined User Stories](./Images/UserStory_Refinement.png)
+![Refined User Stories](./images/user-stories-personas/UserStory_Refinement.png)
 
 ## R5 - Mobile, Tablet and Desktop Wireframes
 
@@ -249,98 +249,98 @@ These wireframes were developed and created using Figma, the online version can 
 
 ### Sign Up Page
 
-![Sign Up Page](./Images/wireframes/wf_1_sign_up.png)
+![Sign Up Page](./images/wireframes/wf_1_sign_up.png)
 
 ### Log In Page
 
-![Log In Page](./Images/wireframes/wf_2_log_in.png)
+![Log In Page](./images/wireframes/wf_2_log_in.png)
 
 ### Main Page
 
-![Main Page](./Images/wireframes/wf_3_main.png)
+![Main Page](./images/wireframes/wf_3_main.png)
 
 ### Party Page
 
-![Party Page](./Images/wireframes/wf_4_party.png)
+![Party Page](./images/wireframes/wf_4_party.png)
 
 ### Trail Menu Page
 
-![Trail Menu Page](./Images/wireframes/wf_5_trails.png)
+![Trail Menu Page](./images/wireframes/wf_5_trails.png)
 
 ### Trail Selection Page
 
-![Trail Selection Page](./Images/wireframes/wf_6_trail_selection.png)
+![Trail Selection Page](./images/wireframes/wf_6_trail_selection.png)
 
 ### Trail Selection Page Alt
 
-![Trail Page Alt Page](./Images/wireframes/wf_7_trail_selection_alt.png)
+![Trail Page Alt Page](./images/wireframes/wf_7_trail_selection_alt.png)
 
 ### Pokédex Page
 
-![Pokédex Page](./Images/wireframes/wf_8_pokedex.png)
+![Pokédex Page](./images/wireframes/wf_8_pokedex.png)
 
 ### Store Menu Page
 
-![Store Menu Page](./Images/wireframes/wf_9_store_menu.png)
+![Store Menu Page](./images/wireframes/wf_9_store_menu.png)
 
 ### Store Purchase Page
 
-![Store Purchase Page](./Images/wireframes/wf_10_store_purchase.png)
+![Store Purchase Page](./images/wireframes/wf_10_store_purchase.png)
 
 ### Store Upgrade Page
 
-![Store Upgrade Page](./Images/wireframes/wf_11_store_upgrade.png)
+![Store Upgrade Page](./images/wireframes/wf_11_store_upgrade.png)
 
 ### Store Upgrade Page Alt
 
-![Store Upgrade Alt Page](./Images/wireframes/wf_12_store_upgrade_max.png)
+![Store Upgrade Alt Page](./images/wireframes/wf_12_store_upgrade_max.png)
 
 ### Store Send Pokémon Page
 
-![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
+![Store Send Pokémon Page](./images/wireframes/wf_13_store_send.png)
 
 ### Store Send Pokémon Page Alt
 
-![Store Send Pokémon Alt Page](./Images/wireframes/wf_14_store_send_alt.png)
+![Store Send Pokémon Alt Page](./images/wireframes/wf_14_store_send_alt.png)
 
 ### User Settings Page
 
-![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
+![User Settings Page](./images/wireframes/wf_15_user_settings.png)
 
 ## R6 - Trello Board Project Management Screenshots
 
 ### 4/07
 
-![4th](./Images/4th.png)
+![4th](./images/trello/4th.png)
 
 ### 5/07
 
-![5th](./Images/5th.png)
+![5th](./images/trello/5th.png)
 
 ### 6/07
 
-![6th](./Images/6th.png)
+![6th](./images/trello/6th.png)
 
 ### 7/07
 
-![7th](./Images/7th.png)
+![7th](./images/trello/7th.png)
 
 ### 8/07
 
-![8th](./Images/8th.png)
+![8th](./images/trello/8th.png)
 
 ### 9/07
 
-![9th](./Images/9th.png)
+![9th](./images/trello/9th.png)
 
 ### 13/07
 
-![13th](./Images/13th.png)
+![13th](./images/trello/13th.png)
 
 ### 16/07
 
-![16th](./Images/16th.png)
+![16th](./images/trello/16th.png)
 
 ### 19/07
 
-![19th](./Images/19th.png)
+![19th](./images/trello/19th.png)
