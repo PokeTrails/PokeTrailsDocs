@@ -308,6 +308,15 @@ These wireframes were developed and created using Figma, the online version can 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
 ## R6 - Trello Board Project Management Screenshots
+We initially used Miro as our way brainstorming for the project and then moved onto Trello once the idea had been initialised and the features were sent in stone. This allowed for a Trello board that was a lot more stable from day 1 that didn't need many improvisations. Throughout the use of the Trello board we used many inbuilt features that allowed us to keep on track and progress at a steady pace, the features we used are:
+- Due Dates
+- Assigning Tasks
+- Checklists
+- Priorities
+
+### Miro Board
+![Miro1](./Images/trello/miro_1.png)
+![Miro2](./Images/trello/miro_2.png)
 
 ### 4/07
 
