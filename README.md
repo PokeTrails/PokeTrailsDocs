@@ -1,8 +1,6 @@
 # PokéTrailsDocs
 
-Official Documentation for the PokéTrails Application.
-
-Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
+Official Documentation for the PokéTrails Application, developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
 
 ## Table of Contents
 
@@ -19,7 +17,7 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
   - [Persona - Pokémon Trainer](#persona---pokémon-trainer)
   - [Persona - Pokémon Fan](#persona---pokémon-fan)
   - [User Stories](#user-stories)
-- [R5 -  Mobile, Tablet and Desktop Wireframes](#r5---mobile-tablet-and-desktop-wireframes)
+- [R5 - Mobile, Tablet and Desktop Wireframes](#r5---mobile-tablet-and-desktop-wireframes)
   - [Sign Up Page](#sign-up-page)
   - [Log In Page](#log-in-page)
   - [Main Page](#main-page)
@@ -43,9 +41,9 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
 
 The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
 
-#### Features
+### Features
 
-Below are the features that we've planned to implement in this applicaiton, including any optional features we would also like to implement given we have enough time.
+Below are the features that we've planned to implement in this application, including any optional features we would also like to implement given we have enough time.
 
 #### Party Management
 
