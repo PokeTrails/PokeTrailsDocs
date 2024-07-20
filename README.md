@@ -39,11 +39,11 @@ Official Documentation for the PokéTrails Application, developed by Rahal Abeyr
 
 ### Purpose
 
-The app/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
+This web application/game aims to create an enjoyable and engaging experience for both long-time Pokémon fans and newcomers. It provides a fun and casual platform where users can learn about different Pokémon through interactive features and captivating visuals. By exploring various Pokémon species, users can deepen their knowledge and appreciation of the Pokémon universe. The app/game also includes challenges to make the learning process entertaining and rewarding, fostering a community of enthusiastic.
 
 ### Features
 
-Below are the features that we've planned to implement in this application, including any optional features we would also like to implement given we have enough time.
+Below are the features that we've planned to implement in this application, including any optional features that we will try fit in if we have enough time.
 
 #### Party Management
 
