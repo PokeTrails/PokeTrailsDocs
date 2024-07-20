@@ -37,7 +37,6 @@ Developed by Rahal Abeyrathna, Suraj Shrestha, Talie Hodge.
   - [User Settings Page](#user-settings-page)
 - [R6 - Trello Board Project Management Screenshots](#r6---trello-board-project-management-screenshots)
 
-## R1 - Description of your Website
 
 ### Purpose
 
@@ -61,22 +60,22 @@ The app/game aims to create an enjoyable and engaging experience for both long-t
 As Pokémon is a product that is popular with all ages and demographics our target audience will tend to mimic that. The age range that that online Pokémon fans tend to be is somewhere between 20-29. As this product is an online application we will be catering to that demographic. While Pokémon fans will be our main target, the game has Gacha mechanics which allow us to appeal to the gacha game player demographic as well.
 
 ### Tech Stack
-
 - **Front End**
-  - Render
-  - HTML
-  - CSS
-  - Javascript
-  - React
-  - Tech Domains
+    - HTML
+    - CSS
+    - Javascript
+    - React
+    - Netlify
+    - Tech Domains
 - **Back End**
-  - Netlify
-  - Javascript
-  - NodeJS
-  - ExpressJS
-  - Mongoose
-  - MongoDB
-  - PokéAPI
+    - Javascript
+    - NodeJS
+    - ExpressJS
+    - Mongoose
+    - MongoDB
+    - Render
+- **Third Party Services**
+    - PokeApi
 
 ## R2 - Dataflow Diagrams
 
@@ -279,4 +278,22 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
 
-## R6 - Trello Board Project Management Screenshots
+## R6 Screenshots of your Trello board throughout the duration of the project
+### 4/07
+![4th](./Images/4th.png)
+### 5/07
+![5th](./Images/5th.png)
+### 6/07
+![6th](./Images/6th.png)
+### 7/07
+![7th](./Images/7th.png)
+### 8/07
+![8th](./Images/8th.png)
+### 9/07
+![9th](./Images/9th.png)
+### 13/07
+![13th](./Images/13th.png)
+### 16/07
+![16th](./Images/16th.png)
+### 19/07
+![19th](./Images/19th.png)
