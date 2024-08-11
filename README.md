@@ -314,6 +314,7 @@ Below are the features that we've planned to implement in this application, incl
 - Play, feed and talk to your Pokémon
   - Hear the Pokémon's cry when interacting with it
   - Pokémon has animations and reacts according to interaction user selects
+    - *Note this has been removed from the deployed application, all Pokémon instead play a cry on succcessful interaction*
 - Evolve Pokémon after raising happiness
 - Rename Pokémon with nicknames
 
@@ -337,9 +338,13 @@ Below are the features that we've planned to implement in this application, incl
 - View Pokédex entries with descriptions with Pokémon you have sent to the Professor
 - View shiny Pokémon if you have discovered any
 - Check overall progress of how far the user has filled out the Pokédex
+  - *Note this has been removed from the deployed application, only Pokémon that the user has hatched or donated are shown in the Pokédex* 
 - View trainer information easily like player level
+  - *Note this has been removed from the deployed application and cannot be viewed in the Pokédex* 
 
 #### User settings
+
+*Note this feature has been removed from the deployed application entirely due to time contraints and is replaced by a temporary placeholder page until it is completed.*
 
 - Customisation options for user engagement and interaction
   - Custom profile icons and trainer sprites which can be unlocked in store
@@ -510,13 +515,23 @@ Below are the wireframes that we developed for this application, consisting of m
 
 These wireframes were developed and created using Figma, the online version can be viewed and accessed [here](https://www.figma.com/design/l4WFNwF8tMJdNZ5tBWap1D/Pok%C3%A9trails?node-id=935169-448&t=SS62FQ7YuaaWgltJ-1).
 
+### Note about Wireframes
+
+Some wireframes were changed during development of the application, these have been noted in the wireframes and referenced in the screenshots of the wireframes, as well as of the deployed application further down.
+
+For example, the Navbar layout has been changed from the wireframes slightly, with different styling and mobile layout.
+
 ### Sign Up Page
 
 ![Sign Up Page](./Images/wireframes/wf_1_sign_up.png)
 
+*Trainer sprite sizes have been changed and image for male trainer has been updated. Form input labels have also been removed.*
+
 ### Log In Page
 
 ![Log In Page](./Images/wireframes/wf_2_log_in.png)
+
+*Removed labels from form inputs.*
 
 ### Main Page
 
@@ -526,13 +541,19 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Party Page](./Images/wireframes/wf_4_party.png)
 
+*Layout has been changed to be more in line with the other pages, placing the party component on the bottom and having the other main components share the space on the top.*
+
 ### Trail Menu Page
 
 ![Trail Menu Page](./Images/wireframes/wf_5_trails.png)
 
+*Extra trail option has been added called 'Wet Trail' to give even amount of trails and increase options for the users.*
+
 ### Trail Selection Page
 
 ![Trail Selection Page](./Images/wireframes/wf_6_trail_selection.png)
+
+*Components have been split into 2 sections, Party is not nested directly into the main trail data section. Eggs are not greyed out as user can select them, is applies to other pages with party component such as store.*
 
 ### Trail Selection Page Alt
 
@@ -542,13 +563,19 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Pokédex Page](./Images/wireframes/wf_8_pokedex.png)
 
+*Background not been added due to time restraints, and layout has entirely been changed with a new design, while keeping the core functionality the same.*
+
 ### Store Menu Page
 
 ![Store Menu Page](./Images/wireframes/wf_9_store_menu.png)
 
+*Icons used for the menu options have been changed to be more accurate and scale better with the application.*
+
 ### Store Purchase Page
 
 ![Store Purchase Page](./Images/wireframes/wf_10_store_purchase.png)
+
+*Amount of slots the user can purchase from has been reduced as not many items were implemented in backend. Also added eggs to be along side items, as eggs have been re-purposed to be purchasable infinitely as long as the user has enough vouchers. Professor Oak has been removed entirely due to not being necessary and not adding value to page. Buttons and other text elements have been centered and moved around to make use of new space.*
 
 ### Store Upgrade Page
 
@@ -562,6 +589,8 @@ These wireframes were developed and created using Figma, the online version can 
 
 ![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
 
+*Professor Oak is no longer shown, and component has been renamed to 'Professor Analysis'. The Pokémon happiness has also been moved to below the Pokémon to keep it using the same component as in the Party page and Trail pages. Total trail time has been removed from the application.*
+
 ### Store Send Pokémon Page Alt
 
 ![Store Send Pokémon Alt Page](./Images/wireframes/wf_14_store_send_alt.png)
@@ -569,6 +598,8 @@ These wireframes were developed and created using Figma, the online version can 
 ### User Settings Page
 
 ![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
+
+*Page has been completely removed from deployed application due to time restraints. Decided to focus on getting main features and gameplay loop of application live so the user settings page has been replaced with a placeholder at time of submission.*
 
 ## R6 - Trello Board Project Management Screenshots (Part A)
 
@@ -620,10 +651,9 @@ We initially used Miro as our way brainstorming for the project and then moved o
 
 ![19th](./Images/trello/19th.png)
 
-
 ## Trello Project Management (Part B)
 
-Much like our part A we used Trello as our main way of delgating tasks, tracking progress and setting due dates. We made extensive use of trello and its features to make the planning process simple and streamlined. On each Saturday we would update the trello board for new tasks to do during the coming week. 
+Much like our part A we used Trello as our main way of delgating tasks, tracking progress and setting due dates. We made extensive use of trello and its features to make the planning process simple and streamlined. On each Saturday we would update the trello board for new tasks to do during the coming week.
 
 Meeting had scheduled days on Saturday, Tuesday and Monday with meetings throughout the weeks if we had questions for each other or needed help. Our main way of organising these meetings were through discord, in the discord we then had a stored google meet link where we had conducted all our meetings. Using the discord server we had made was our main way of communicating and ideas or issue we had came accross in the development process.
 
