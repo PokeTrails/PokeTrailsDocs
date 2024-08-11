@@ -502,6 +502,7 @@ So that: I can stay informed and engage with the app regularly.
 - I can receive in app alerts when my Pokémon returns from a trail, evolves, or needs attention.
 
 ---
+***This feature was removed from the application due to time constraints and other moving parts of the application.***
 
 ### User Stories Refinement
 
