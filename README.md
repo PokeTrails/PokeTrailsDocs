@@ -286,7 +286,7 @@ The results of the automated testing conducted with Cypress can be found in the 
 
 For additional context and visualization, screenshots of the testing processes and results are provided below:
 
-![Development Testing](./docs/images/development_testing.png)
+![Development Testing](./docs/testing/development_testing.png)
 
 ![User Testing](./docs/testing/user_testing.png)
 
@@ -296,7 +296,23 @@ For additional context and visualization, screenshots of the testing processes a
 
 ### Back-end Testing
 
-(Suraj)
+## Overview
+
+Backend testing was carried out meticulously to ensure the robustness, security, and accuracy of API endpoints as outlined in the project specifications. The testing process was comprehensive, covering all aspects from data validation to performance under load, and ensuring secure access through proper authentication mechanisms. The testing was divided into several phases, including local, staging, and production environments, each designed to thoroughly validate each feature under various conditions and scenarios, from typical use cases to potential edge cases. This approach ensured that the API was not only functional but also resilient and scalable.
+
+### Local Development Testing
+
+Initial testing of the backend API routes was conducted in a local environment using Postman. Each route was subjected to detailed scrutiny, ensuring correct HTTP status codes, response bodies, and JWT token authentication where applicable. The testing process involved various scenarios, including valid and invalid inputs, boundary conditions, and error responses. Special attention was given to edge cases, such as handling of malformed requests, rate limiting, and ensuring proper data validation rules were enforced. Logging and error reporting mechanisms were also verified to ensure that they provided sufficient information for debugging and monitoring. This phase focused on verifying the basic functionality and ensuring that the API could handle different input cases reliably, preparing it for more rigorous testing in later stages.
+
+### Production Environment Testing
+
+Final testing was conducted in the production environment using the live API. This testing phase was critical to validate that all endpoints functioned as expected in a real-world setting with actual user data. In addition to functional testing, this phase included performance and stress testing to evaluate the API's behavior under heavy load, ensuring that it could scale appropriately without degradation of service. Security testing was also a key focus, with JWT authentication being rigorously tested for vulnerabilities such as token expiration, revocation handling, and protection against unauthorized access. The overall API performance, including response times, was measured to ensure it met the required standards. Monitoring tools were employed to track the API's health and performance metrics, ensuring that any issues could be quickly identified and addressed.
+
+### Summary
+
+The backend testing process was comprehensive and covered all possible scenarios, from normal operation to potential edge cases. Each endpoint was tested rigorously across different environments, ensuring not only correct functionality but also security, scalability, and resilience. Automated tests were implemented to facilitate continuous integration and catch regressions early in the development process. All tests passed successfully, and the API was deemed ready for production deployment. The detailed logs and results from the testing phases are stored in the project repository for further reference, providing a clear audit trail and insights for future development and maintenance.
+
+![Server Testing](./docs/testing/ServerTesting.png)
 
 ## R1 - Application Purpose and Features
 
@@ -314,6 +330,7 @@ Below are the features that we've planned to implement in this application, incl
 - Play, feed and talk to your Pokémon
   - Hear the Pokémon's cry when interacting with it
   - Pokémon has animations and reacts according to interaction user selects
+    - *Note this has been removed from the deployed application, all Pokémon instead play a cry on succcessful interaction*
 - Evolve Pokémon after raising happiness
 - Rename Pokémon with nicknames
 
@@ -337,9 +354,13 @@ Below are the features that we've planned to implement in this application, incl
 - View Pokédex entries with descriptions with Pokémon you have sent to the Professor
 - View shiny Pokémon if you have discovered any
 - Check overall progress of how far the user has filled out the Pokédex
+  - *Note this has been removed from the deployed application, only Pokémon that the user has hatched or donated are shown in the Pokédex*
 - View trainer information easily like player level
+  - *Note this has been removed from the deployed application and cannot be viewed in the Pokédex*
 
 #### User settings
+
+*Note this feature has been removed from the deployed application entirely due to time contraints and is replaced by a temporary placeholder page until it is completed.*
 
 - Customisation options for user engagement and interaction
   - Custom profile icons and trainer sprites which can be unlocked in store
@@ -377,26 +398,26 @@ The below diagrams depict how data travels, and is stored, throughout various pr
 
 ### Login Process
 
-![Login](./Images/dfd/DFD_Login.PNG)
+![Login](./docs/images/dfd/DFD_Login.PNG)
 
 ### Shop Process
 
-![Shop](./Images/dfd/DFD_Shop.PNG)
+![Shop](./docs/images/dfd/DFD_Shop.PNG)
 
 ### Trail Process
 
-![Trail](./Images/dfd/DFD_Trail.PNG)
+![Trail](./docs/images/dfd/DFD_Trail.PNG)
 
 ### Pokémon Interaction Process
 
-![Interactions](./Images/dfd/DFD_Interactions.PNG)
+![Interactions](./docs/images/dfd/DFD_Interactions.PNG)
 
 ## R3 - Application Architecture Diagram
 
 The PokéTrails application leverages a modern web architecture that includes a front-end built with HTML, CSS, JavaScript, and React, hosted on Netlify. The back-end, hosted on Render, utilises Node.js with Express.js and Mongoose for handling API requests and MongoDB operations. The system integrates with third-party services like PokéAPI to enhance functionality and provide comprehensive data to users.
 
 Below is an overview of the full app architecture:
-![Application Architecture Diagram.](./Images/App%20Architect.jpg)
+![Application Architecture Diagram.](./docs/images/App%20Architect.jpg)
 
 ## R4 - User Stories and Personas
 
@@ -404,19 +425,19 @@ In this section, we outline the key user personas and their respective user stor
 
 ### Persona - Pokémon Caretaker
 
-![Caretaker](./Images/user-stories-personas/Persona_Caretaker.png)
+![Caretaker](./docs/images/user-stories-personas/Persona_Caretaker.png)
 
 ### Persona - Pokémon Enthusiast
 
-![Enthusiast](./Images/user-stories-personas/Persona_Enthusiast.png)
+![Enthusiast](./docs/images/user-stories-personas/Persona_Enthusiast.png)
 
 ### Persona - Pokémon Trainer
 
-![Trainer](./Images/user-stories-personas/Persona_Trainer.png)
+![Trainer](./docs/images/user-stories-personas/Persona_Trainer.png)
 
 ### Persona - Pokémon Fan
 
-![Fan](./Images/user-stories-personas/Persona_Fan.png)
+![Fan](./docs/images/user-stories-personas/Persona_Fan.png)
 
 ### User Stories
 
@@ -504,7 +525,7 @@ Below is an overview of the refinement to the user stories. The user stories wer
 
 #### Change Log
 
-![Refined User Stories](./Images/user-stories-personas/UserStory_Refinement.png)
+![Refined User Stories](./docs/images/user-stories-personas/UserStory_Refinement.png)
 
 ## R5 - Mobile, Tablet and Desktop Wireframes
 
@@ -512,65 +533,157 @@ Below are the wireframes that we developed for this application, consisting of m
 
 These wireframes were developed and created using Figma, the online version can be viewed and accessed [here](https://www.figma.com/design/l4WFNwF8tMJdNZ5tBWap1D/Pok%C3%A9trails?node-id=935169-448&t=SS62FQ7YuaaWgltJ-1).
 
+### Note about Wireframes
+
+Some wireframes were changed during development of the application, these have been noted in the wireframes and referenced in the screenshots of the wireframes, as well as of the deployed application further down.
+
+For example, the Navbar layout has been changed from the wireframes slightly, with different styling and mobile layout.
+
 ### Sign Up Page
 
-![Sign Up Page](./Images/wireframes/wf_1_sign_up.png)
+![Sign Up Page](./docs/images/wireframes/wf_1_sign_up.png)
+
+*Trainer sprite sizes have been changed and image for male trainer has been updated. Form input labels have also been removed.*
 
 ### Log In Page
 
-![Log In Page](./Images/wireframes/wf_2_log_in.png)
+![Log In Page](./docs/images/wireframes/wf_2_log_in.png)
+
+*Removed labels from form inputs.*
 
 ### Main Page
 
-![Main Page](./Images/wireframes/wf_3_main.png)
+![Main Page](./docs/images/wireframes/wf_3_main.png)
 
 ### Party Page
 
-![Party Page](./Images/wireframes/wf_4_party.png)
+![Party Page](./docs/images/wireframes/wf_4_party.png)
+
+*Layout has been changed to be more in line with the other pages, placing the party component on the bottom and having the other main components share the space on the top.*
 
 ### Trail Menu Page
 
-![Trail Menu Page](./Images/wireframes/wf_5_trails.png)
+![Trail Menu Page](./docs/images/wireframes/wf_5_trails.png)
+
+*Extra trail option has been added called 'Wet Trail' to give even amount of trails and increase options for the users.*
 
 ### Trail Selection Page
 
-![Trail Selection Page](./Images/wireframes/wf_6_trail_selection.png)
+![Trail Selection Page](./docs/images/wireframes/wf_6_trail_selection.png)
+
+*Components have been split into 2 sections, Party is not nested directly into the main trail data section. Eggs are not greyed out as user can select them, is applies to other pages with party component such as store.*
 
 ### Trail Selection Page Alt
 
-![Trail Page Alt Page](./Images/wireframes/wf_7_trail_selection_alt.png)
+![Trail Page Alt Page](./docs/images/wireframes/wf_7_trail_selection_alt.png)
 
 ### Pokédex Page
 
-![Pokédex Page](./Images/wireframes/wf_8_pokedex.png)
+![Pokédex Page](./docs/images/wireframes/wf_8_pokedex.png)
+
+*Background not been added due to time restraints, and layout has entirely been changed with a new design, while keeping the core functionality the same.*
 
 ### Store Menu Page
 
-![Store Menu Page](./Images/wireframes/wf_9_store_menu.png)
+![Store Menu Page](./docs/images/wireframes/wf_9_store_menu.png)
+
+*Icons used for the menu options have been changed to be more accurate and scale better with the application.*
 
 ### Store Purchase Page
 
-![Store Purchase Page](./Images/wireframes/wf_10_store_purchase.png)
+![Store Purchase Page](./docs/images/wireframes/wf_10_store_purchase.png)
+
+*Amount of slots the user can purchase from has been reduced as not many items were implemented in backend. Also added eggs to be along side items, as eggs have been re-purposed to be purchasable infinitely as long as the user has enough vouchers. Professor Oak has been removed entirely due to not being necessary and not adding value to page. Buttons and other text elements have been centered and moved around to make use of new space.*
 
 ### Store Upgrade Page
 
-![Store Upgrade Page](./Images/wireframes/wf_11_store_upgrade.png)
+![Store Upgrade Page](./docs/images/wireframes/wf_11_store_upgrade.png)
 
 ### Store Upgrade Page Alt
 
-![Store Upgrade Alt Page](./Images/wireframes/wf_12_store_upgrade_max.png)
+![Store Upgrade Alt Page](./docs/images/wireframes/wf_12_store_upgrade_max.png)
 
 ### Store Send Pokémon Page
 
-![Store Send Pokémon Page](./Images/wireframes/wf_13_store_send.png)
+![Store Send Pokémon Page](./docs/images/wireframes/wf_13_store_send.png)
+
+*Professor Oak is no longer shown, and component has been renamed to 'Professor Analysis'. The Pokémon happiness has also been moved to below the Pokémon to keep it using the same component as in the Party page and Trail pages. Total trail time has been removed from the application.*
 
 ### Store Send Pokémon Page Alt
 
-![Store Send Pokémon Alt Page](./Images/wireframes/wf_14_store_send_alt.png)
+![Store Send Pokémon Alt Page](./docs/images/wireframes/wf_14_store_send_alt.png)
 
 ### User Settings Page
 
-![User Settings Page](./Images/wireframes/wf_15_user_settings.png)
+![User Settings Page](./docs/images/wireframes/wf_15_user_settings.png)
+
+*Page has been completely removed from deployed application due to time restraints. Decided to focus on getting main features and gameplay loop of application live so the user settings page has been replaced with a placeholder at time of submission.*
+
+### Deployed Application Screenshots
+
+#### Main Menu
+
+![Main Menu](./docs/screenshots/Main%20Menu.png)
+
+#### Login
+
+![Login](./docs/screenshots/Login.png)
+
+#### Sign Up
+
+![Sign Up](./docs/screenshots/SignUp.png)
+
+#### Store Menu
+
+![Store Menu](./docs/screenshots/Store%20Menu.png)
+
+#### Store Donate Pokémon
+
+![Store Donate Pokemon](./docs/screenshots/Store%20Donate%20Pokemon.png)
+
+#### Store Item Upgrade
+
+![Store Item Upgrade](./docs/screenshots/Store%20Item%20Upgrade.png)
+
+#### Trails Menu
+
+![Trails Menu](./docs/screenshots/Trails%20Menu.png)
+
+#### Trails Pokémon Return
+
+![Trails Pokémon Return](./docs/screenshots/Trails%20Pokemon%20Return.png)
+
+#### Rocky Trails
+
+![Rocky Trails](./docs/screenshots/Rocky%20Trails.png)
+
+#### Frosty Trails
+
+![Frosty Trails](./docs/screenshots/Frosty%20Trails.png)
+
+#### Wet Trails
+
+![Wet Trails](./docs/screenshots/Wet%20Trails.png)
+
+#### Wild Trails
+
+![Wild Trails](./docs/screenshots/Wild%20Trails.png)
+
+#### Party
+
+![Party](./docs/screenshots/Party.png)
+
+#### Pokedex
+
+![Pokedex](./docs/screenshots/Pokedex.png)
+
+#### Donation Reward
+
+![Donation Reward](./docs/screenshots/Donation%20Reward.png)
+
+#### App Logo
+
+![App Logo](./docs/screenshots/app_logo.png)
 
 ## R6 - Trello Board Project Management Screenshots (Part A)
 
@@ -583,45 +696,44 @@ We initially used Miro as our way brainstorming for the project and then moved o
 
 ### Miro Board
 
-![Miro1](./Images/trello/miro_1.png)
-![Miro2](./Images/trello/miro_2.png)
+![Miro1](./docs/images/trello/miro_1.png)
+![Miro2](./docs/images/trello/miro_2.png)
 
 ### 4/07
 
-![4th](./Images/trello/4th.png)
+![4th](./docs/Images/trello/4th.png)
 
 ### 5/07
 
-![5th](./Images/trello/5th.png)
+![5th](./docs/Images/trello/5th.png)
 
 ### 6/07
 
-![6th](./Images/trello/6th.png)
+![6th](./docs/Images/trello/6th.png)
 
 ### 7/07
 
-![7th](./Images/trello/7th.png)
+![7th](./docs/Images/trello/7th.png)
 
 ### 8/07
 
-![8th](./Images/trello/8th.png)
+![8th](./docs/Images/trello/8th.png)
 
 ### 9/07
 
-![9th](./Images/trello/9th.png)
+![9th](./docs/Images/trello/9th.png)
 
 ### 13/07
 
-![13th](./Images/trello/13th.png)
+![13th](./docs/Images/trello/13th.png)
 
 ### 16/07
 
-![16th](./Images/trello/16th.png)
+![16th](./docs/Images/trello/16th.png)
 
 ### 19/07
 
-![19th](./Images/trello/19th.png)
-
+![19th](./docs/Images/trello/19th.png)
 
 ## Trello Project Management (Part B)
 
@@ -631,21 +743,20 @@ To complement our use of Trello, we scheduled regular meetings on Saturdays, Tue
 
 Our primary communication tool was Discord, where we created a dedicated server for the project. This server served as the central hub for all project related discussions, file sharing, and meeting coordination. Within the Discord server, we stored a Google Meet link, which we used for all our virtual meetings. This setup allowed us to quickly jump into meetings and collaborate effectively, regardless of where team members were located. The combination of Trello for task management and Discord for communication created a seamless workflow.
 
-
 When reviewing the Trello board, you'll notice that each card is marked with the first initial of the team member responsible for that task, making it clear who is accountable for its completion. We've utilized color coded labels to convey essential information about each task.
 
 - Priority levels are indicated by:
-    - Red for high priority,
-    - Orange for medium priority, and
-    - Dark Green for low priority.
+  - Red for high priority,
+  - Orange for medium priority, and
+  - Dark Green for low priority.
   
 - Task type is identified by:
-    - Light Green for front-end work, and
-    - Dark Blue for back-end tasks.
+  - Light Green for front-end work, and
+  - Dark Blue for back-end tasks.
 
 - Feature classification is denoted by:
-    - Purple for core functionality, and
-    - Blue for optional features.
+  - Purple for core functionality, and
+  - Blue for optional features.
 
 This system allowed us to easily manage and prioritize tasks, ensuring that everyone was on the same page and that the most critical work received the attention it needed.
 
