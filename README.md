@@ -35,7 +35,7 @@ Official Documentation for the PokéTrails Application, developed by Rahal Abeyr
   - [Store Send Pokémon Page](#store-send-pokémon-page)
   - [Store Send Pokémon Page Alt](#store-send-pokémon-page-alt)
   - [User Settings Page](#user-settings-page)
-- [R6 - Trello Board Project Management Screenshots](#r6---trello-board-project-management-screenshots)
+- [R6 - Trello Board Project Management Screenshots (Part A)](#r6---trello-board-project-management-screenshots-part-a)
 
 ## 🚀 Deployed Applications
 
@@ -286,7 +286,7 @@ The results of the automated testing conducted with Cypress can be found in the 
 
 For additional context and visualization, screenshots of the testing processes and results are provided below:
 
-![Development Testing](./docs//images/development_testing.png)
+![Development Testing](./docs/images/development_testing.png)
 
 ![User Testing](./docs/testing/user_testing.png)
 
