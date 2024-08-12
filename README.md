@@ -685,10 +685,6 @@ For example, the Navbar layout has been changed from the wireframes slightly, wi
 
 ![Donation Reward](./docs/screenshots/Donation%20Reward.png)
 
-#### App Logo
-
-![App Logo](./docs/screenshots/app_logo.png)
-
 ## R6 - Trello Board Project Management Screenshots (Part A)
 
 We initially used Miro as our way brainstorming for the project and then moved onto Trello once the idea had been initialised and the features were sent in stone. This allowed for a Trello board that was a lot more stable from day 1 that didn't need many improvisations. Throughout the use of the Trello board we used many inbuilt features that allowed us to keep on track and progress at a steady pace, the features we used are:
