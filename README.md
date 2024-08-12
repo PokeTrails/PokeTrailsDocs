@@ -704,45 +704,47 @@ We initially used Miro as our way brainstorming for the project and then moved o
 
 ### 4/07
 
-![4th](./docs/Images/trello/4th.png)
+![4th](./docs/images/trello/4th.png)
 
 ### 5/07
 
-![5th](./docs/Images/trello/5th.png)
+![5th](./docs/images/trello/5th.png)
 
 ### 6/07
 
-![6th](./docs/Images/trello/6th.png)
+![6th](./docs/images/trello/6th.png)
 
 ### 7/07
 
-![7th](./docs/Images/trello/7th.png)
+![7th](./docs/images/trello/7th.png)
 
 ### 8/07
 
-![8th](./docs/Images/trello/8th.png)
+![8th](./docs/images/trello/8th.png)
 
 ### 9/07
 
-![9th](./docs/Images/trello/9th.png)
+![9th](./docs/images/trello/9th.png)
 
 ### 13/07
 
-![13th](./docs/Images/trello/13th.png)
+![13th](./docs/images/trello/13th.png)
 
 ### 16/07
 
-![16th](./docs/Images/trello/16th.png)
+![16th](./docs/images/trello/16th.png)
 
 ### 19/07
 
-![19th](./docs/Images/trello/19th.png)
+![19th](./docs/images/trello/19th.png)
 
 ## Trello Project Management (Part B)
 
 Much like our Part A, we utilized Trello as our primary tool for delegating tasks, tracking progress, and setting due dates. Trello's intuitive interface allowed us to effectively organize our workflow and ensure that every team member was aware of their responsibilities. We made extensive use of Trello’s features, such as labels, checklists, and due dates, to streamline the planning process and keep everything on track. On each Saturday, we would review and update the Trello board with new tasks and priorities for the upcoming week, ensuring that everyone was aligned with the project's goals and deadlines.
 
-To complement our use of Trello, we scheduled regular meetings on Saturdays, Tuesdays, and Mondays to discuss progress, address any blockers, and plan the next steps. These meetings provided a structured opportunity to collaborate, share updates, and ensure that the project was progressing smoothly. In addition to our scheduled meetings, we remained flexible and arranged ad hoc meetings throughout the week whenever we encountered questions, needed assistance, or had new ideas to discuss.
+We decided to split the project into back-end and front-end development, and delegated our tasks and deliverables according to each members strengths and weaknesses. As a result, Rahal was given the front-end to work on as he had more experience working with frameworks such as Material UI which would help him get the website up and running faster, and because he created the wireframes and so would be most comfortable designing the pages. Suraj and Talie were then given back-end to work on, as they were much more comfortable and familiar with MongoDB and working with databases. This led us to complete our tasks and goals in a timely fashion which may not have been possible if we did not take these factors into account.
+
+To complement our use of Trello, we scheduled regular meetings on Saturdays, Tuesdays, and Mondays to discuss progress, address any blockers, and plan the next steps. These meetings provided a structured opportunity to collaborate, share updates, and ensure that the project was progressing smoothly. In addition to our scheduled meetings, we remained flexible and arranged ad hoc meetings throughout the week whenever we encountered questions, needed assistance, or had new ideas to discuss. Whenever we ran into any road bumps or issues with our progress, we would make it clear here to realign ourselves and organise how we would plan our tasks out for that given week. We would also re-assign tasks if needed so ensure we were steadily making progress.
 
 Our primary communication tool was Discord, where we created a dedicated server for the project. This server served as the central hub for all project related discussions, file sharing, and meeting coordination. Within the Discord server, we stored a Google Meet link, which we used for all our virtual meetings. This setup allowed us to quickly jump into meetings and collaborate effectively, regardless of where team members were located. The combination of Trello for task management and Discord for communication created a seamless workflow.
 
