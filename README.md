@@ -39,8 +39,9 @@ Official Documentation for the PokéTrails Application, developed by Rahal Abeyr
 
 ## 🚀 Deployed Applications
 
-- **Front End:** [https://poketrails.com](https://poketrails.com)
-- **Back End:** [https://api.poketrails.com](https://api.poketrails.com)
+- **Front End Deployed App Site:** [https://poketrails.com](https://poketrails.com)
+- **Front End Development Site:** [https://dev.poketrails.com](https://dev.poketrails.com)
+- **Back End API:** [https://api.poketrails.com](https://api.poketrails.com)
 
 ## 📂 Repositories
 
